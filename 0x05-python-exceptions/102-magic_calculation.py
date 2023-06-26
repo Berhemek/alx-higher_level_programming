@@ -1,13 +1,11 @@
 #!/usr/bin/python3
-def magic_calculation(a, b):
-    result = 0
-    for i in range(1, 3):
+def safe_print_list(my_list=[], x=0):
+    n = 0
+    for m in range(x):
         try:
-            if (i > a):
-                raise Exception("Too far")
-            else:
-                result += (a ** b) / i
-        except:
-            result = b + a
+            print(my_list[m], end="")
+            n += 1
+        except IndexError:
             break
-    return (result)
+    print()
+    return n
