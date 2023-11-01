@@ -1,1 +1,1 @@
-Module of High-level programming and Python, carried out during Full Stack Software Engineering studies at Alx.
+Module of High-level programming & Python, carried out during Full Stack Software Engineering studies at Alx.
